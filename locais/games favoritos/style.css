@@ -1,0 +1,73 @@
+h1 {
+    font-family: "Nunito", Verdana, sans-serif;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px black;
+}
+h2 {
+    font-family: "Nunito", Verdana, sans-serif;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px black;
+}
+body {
+  background-image: url("fundo.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Nunito", Verdana, sans-serif;
+}
+.imagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagens a {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.imagens img {
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.celeste {
+    width: 80%;
+}
+.deltarune {
+    width: 100%;
+}
+.undertale {
+    width: 75%;
+}
+.ena-dream-bbq {
+    width: 100%;
+}
+.sobre-mim h1,.projetos h1,.games-favoritos h1,.animacoes-favoritas h1,.musicas h1,.quack-media h1 {
+    margin-left: 10px;
+    border-radius: 0px;
+}
+a {
+  text-decoration: none;
+}
+.textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.textos h1,
+.textos h2 {
+    margin: 0;
+}
+
+.textos h2 {
+    margin-top: 8px;
+    font-size: 20px;
+    -webkit-text-stroke: 0;
+}
